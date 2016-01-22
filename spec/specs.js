@@ -1,6 +1,6 @@
 describe ('pingPong', function() {
-  it ("will list a numbers from 1 to userInput", function () {
-    expect(pingPong(1)).to.eql([1, 2]);
+  it ("will list a numbers from 1 to enterNumber", function () {
+    expect(pingPong(2)).to.eql([1, 2]);
 });
  it ("will say 'ping' if the number is divisible by 3", function () {
    expect(pingPong(3)).to.eql([1, 2, "ping"]);
