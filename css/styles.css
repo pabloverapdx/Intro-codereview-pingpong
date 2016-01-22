@@ -2,3 +2,33 @@
   display: none;
   font-size: 40px;
 }
+.header {
+    background-color: #3399ff;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.navi {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:left;
+    padding:50px;
+    font-weight: bold;
+}
+.section {
+    width:500px;
+    float:left;
+    padding:10px;
+    text-align: left;
+}
+.photocontent {
+    text-align: center;
+    float: right;
+    width:1000px;
+    height:40px;
+}
+.list {
+  padding-left: 40px;
+}
