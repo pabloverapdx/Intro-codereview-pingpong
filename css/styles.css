@@ -18,3 +18,8 @@
     padding:50px;
     font-weight: bold;
 }
+#center {
+  float: left;
+  padding-top: 50px;
+  margin-left: 20px;
+}
