@@ -5,4 +5,10 @@ var pingPong = function (number) {
   else if (number % 5 === 0) {
     return "pong";
   }
+  else if (number % 15 === 0) {
+    return "pingpong";
+  }
+  else {
+    return number;
+  }
 }
