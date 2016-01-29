@@ -12,3 +12,18 @@ var pingPong = function (number) {
     return number;
   }
 }
+
+$(document).ready(function() {
+  $("form#wantToPing").submit(function(event) {
+    var number = $("input#number").val();
+        number = parseInt(number);
+
+    $("#results").empty();
+    for (var i = 1; i <= number; i +=1) {
+      var result = pingPong (i);
+        $("<li>" + result + "</li>").appendTo($("#results"));
+    }
+    event.preventDefault();
+  });
+
+});
