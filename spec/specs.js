@@ -8,8 +8,7 @@ describe('pingPong', function () {
 
   });
 
-  it("is a number divisible by 3 and 5", function () {
+  it("is a number divisible by 15", function () {
     expect(pingPong(15)).to.equal("pingpong");
     });
-
-  });
+});
