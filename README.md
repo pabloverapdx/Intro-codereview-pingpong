@@ -13,7 +13,9 @@ Create a web application that takes a number from a user and returns a range of 
 - Numbers divisible by 15 are replaced with "pingpong"
 
 ## setup
-The application can be installed by cloning the project from GitHub.
+The application can be installed by cloning the project
+
+or view it on github pages: http://pabloverapdx.github.io/codereview3/
 
 ## Technology used:
 HTML, CSS, JavaScript, jQuery, Mocha, Chai
