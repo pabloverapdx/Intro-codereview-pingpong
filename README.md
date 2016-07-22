@@ -15,7 +15,7 @@ Create a web application that takes a number from a user and returns a range of 
 ## setup
 The application can be installed by cloning the project
 
-or view it on github pages: http://pabloverapdx.github.io/codereview3/
+or view it on github pages: http://pabloverapdx.github.io/Intro-codereview-pingpong/
 
 ## Technology used:
 HTML, CSS, JavaScript, jQuery, Mocha, Chai
