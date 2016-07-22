@@ -12,6 +12,8 @@ Create a web application that takes a number from a user and returns a range of 
 - Numbers divisible by 5 are replaced with "pong"
 - Numbers divisible by 15 are replaced with "pingpong"
 
+![screenshot of github user search website](img/pingpong.png)
+
 ## setup
 The application can be installed by cloning the project
 
