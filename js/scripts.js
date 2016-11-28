@@ -20,11 +20,10 @@ $(document).ready(function() {
     if (number <= 0){
   alert("Please enter a number greater than or equal to 1!");
 }
-    for (var i = 1; i <= number; i +=1) {
-      var result = pingPong (i);
-        $("<li>" + result + "</li>").appendTo($("#results"));
-    }
+  for (var i = 1; i <= number; i +=1) {
+    var result = pingPong (i);
+      $("<li>" + result + "</li>").appendTo($("#results"));
+  }
     event.preventDefault();
   });
-
 });

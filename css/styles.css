@@ -10,13 +10,15 @@
 
 li {
   list-style-type: none;
-  font-size: 4vw;
+  font-size: 36px;
   margin: 0 auto;
 }
 
 .btn {
   background-color: #3949AA;
   color: #E1736A;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -24,7 +26,7 @@ li {
 }
 
 h1 {
-  animation: bounce 1s .5s;
+  animation: bounce 1.2s;
   font-family: 'Monoton', cursive;
   letter-spacing: 2px;
   font-size: 8vw;
@@ -34,17 +36,29 @@ h1 {
 #results {
   text-align: center;
   background-color: #E1736A;
-  width: 100%;
-  margin: auto;
   font-family: 'Monoton', cursive;
   letter-spacing: 4px;
   font-size: 7vw;
 }
 
 label {
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 36px;
+}
+
+input {
+  font-size: 20px;
 }
 
 p {
-  font-size: 18px;
+  letter-spacing: 3px;
+  font-size: 34px;
+  margin: 0;
+}
+
+.first-p {
+  color: #E1736A;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
