@@ -5,39 +5,31 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
       <script src="js/jquery-1.12.0.js"></script>
       <script src="js/scripts.js"></script>
-      <title>Ping Pong</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+      <title>Ping Pong Game</title>
   </head>
   <body>
-    <div class="container">
     <div class="header">
-      <h1>Let's play Ping Pong!</h1>
+      <h1>Ping Pong!</h1>
+    </div>
 
-    </div>
-    <div class="navi">
-      <p>Created by: Pablo</p>
-      <p class="github">GitHub account:</p>
-      <p><a href="https://github.com/pabloverapdx">pabloverapdx</a></p>
-      <p><a href="http://pabloverapdx.github.io/codereview3/">Online website</a></p>
-    </div>
     <div id="center">
-      <h2>Let's play!</h2>
       <h3>Rules:</h3>
-      <p>Ping Pong will count to your number from 1 with the following exceptions.</p>
-      <ul>
-        <li>Numbers divisible by 3 becomes "ping"</li>
-        <li>Numbers divisible by 5 becomes "pong"</li>
-        <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
-      </ul>
-    <form id="wantToPing">
-    <div class="form-group">
-      <label for="number">Enter your number here:</label>
-      <input id="number" type="text">
-    </div>
-      <button type="submit" class="btn">Find out!</button>
+      <p>Ping Pong will count to your number from 1 with the following exceptions:</p>
+      <p>Numbers divisible by 3 become "ping"</p>
+      <p>Numbers divisible by 5 become "pong"</p>
+      <p>Numbers divisible by 15 become "pingpong"</p>
+      <form id="wantToPing">
+        <div class="form-group">
+          <label for="number">Enter your number here:</label>
+          <input id="number" type="text">
+          <button type="submit" class="btn btn-md">PLAY</button>
+        </div>
       </form>
+    </div>
     <div id="results">
-      <ul></ul>
     </div>
-    </div>
+  </div>
   </body>
 <html>
