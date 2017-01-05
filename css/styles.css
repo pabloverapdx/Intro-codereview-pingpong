@@ -25,9 +25,14 @@ li {
   color: #FFFFFF;
 }
 
+@font-face {
+  font-family: 'Monoton-Regular';
+  src: url('../fonts/Monoton-Regular.ttf');
+}
+
 h1 {
   animation: bounce 1.2s;
-  font-family: 'Monoton', cursive;
+  font-family: 'Monoton-Regular', sans-serif;
   letter-spacing: 2px;
   font-size: 8vw;
   color: #E1736A;
@@ -36,7 +41,7 @@ h1 {
 #results {
   text-align: center;
   background-color: #E1736A;
-  font-family: 'Monoton', cursive;
+  font-family: 'Monoton-Regular', sans-serif;
   letter-spacing: 4px;
   font-size: 7vw;
 }
