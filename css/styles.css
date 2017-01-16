@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Monoton-Regular';
+  src: url('../fonts/Monoton-Regular.ttf');
+}
+
 .header {
   background-color: #3949AA;
   text-align:center;
@@ -25,10 +30,6 @@ li {
   color: #FFFFFF;
 }
 
-@font-face {
-  font-family: 'Monoton-Regular';
-  src: url('../fonts/Monoton-Regular.ttf');
-}
 
 h1 {
   animation: bounce 1.2s;
