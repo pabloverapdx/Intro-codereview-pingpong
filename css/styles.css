@@ -49,7 +49,7 @@ h1 {
 
 label {
   margin-top: 10px;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 input {
@@ -57,14 +57,29 @@ input {
 }
 
 p {
-  letter-spacing: 1px;
-  font-size: 34px;
+  /*letter-spacing: 1px;*/
+  font-size: 24px;
   margin: 0;
 }
 
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: 14px;
+    padding-top: 2px;
+  }
+}
 .first-p {
   color: #E1736A;
   font-weight: bold;
   letter-spacing: 3px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  label, input, .btn-lg {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+  }
 }
